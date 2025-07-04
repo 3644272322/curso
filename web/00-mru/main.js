@@ -1,7 +1,6 @@
-import {$,$$} from "logger.js"
+import { $ } from "logger.js"
 
 const fruit = ["manzana", 'naranja']
-
 
 function addElement(dt) {
     const sect=$(".section")

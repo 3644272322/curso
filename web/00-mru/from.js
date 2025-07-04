@@ -1,4 +1,4 @@
-import{$,$$} from "logger.js"
+import{ $, $$ } from "logger.js"
 
 const bt = $(".from-button")
 

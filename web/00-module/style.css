@@ -1,0 +1,9 @@
+:root[data-theme="ligth"]{
+
+    color:black;
+    background-color:aliceblue;   
+}
+:root[data-theme="dark"]{
+ background-color: black;
+ color:aliceblue;
+}
