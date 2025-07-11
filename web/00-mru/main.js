@@ -1,17 +1,31 @@
 import { $ } from "logger.js"
+import { cE } from "./logger"
 
-const fruit = ["manzana", 'naranja']
+export const fruit = ["manzana", 'naranja']
+const root = $(".section")
+const filtter = $(".filtter")
 
-function addElement(dt) {
-    const sect=$(".section")
-    fruit.push(dt)
+
+export function addFruit() {
     fruit.forEach(element => {
-        let P = d.createElement('p')   
+      // crear y agregarla etiqueta html p
+      let P = d.createElement('p')  
+      // agregar el texto a la etiqueta html p 
       P.textCantent = el 
+      // agregar el artiburto class a la etiqueta html p
       P.classlist.add("fruit")
-      sect.appendchild('p')
-    
+      root.appendchild('p')
+       
+     // agregar los elementos de nuentra lista fruits
+     // agregar los elementos otpion a nuetros elementos select(filtter)
+     let option = cE("option")
+     //agregar el texto a la etiqueta html p
+     option.textCantent = el
+     //agregar la etiqueta el aributos value a la etiqueta html option
+     option.setAttribute("value", el)
+     filtter.appendchild(option)
     })  
     
  }
- addElement("")
+ addFruit()
+  

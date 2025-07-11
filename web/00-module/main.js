@@ -1,7 +1,7 @@
 import { $ , d } from ". /logger.js"
 //definir variables
 
-const fruits = ["manzana","naranja", "platano"]
+export const fruits = ["manzana","naranja", "platano"]
 const root =$('.main') 
 
 
@@ -12,3 +12,4 @@ let p = d.createElement('p')
 
 
 })
+

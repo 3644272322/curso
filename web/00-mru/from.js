@@ -1,10 +1,14 @@
 import{ $, $$ } from "logger.js"
+import { fruits, addFruits } from "./main.js"
 
-const bt = $(".from-button")
+const form = $(".from")
 
 form.ontsubmit=(ev)=>{
     ev.preventDefaul()
     const formData = new FormData(ev.target)
     const addData = formData.get("vel")
-    addElement(addData)
+    fruits.push(addEl)
+    console.log(fruits)
+    addFruits()
 }
+
