@@ -123,8 +123,9 @@ if (checkColllsion()){
     pise.position.x--
    }
 }
-  if (ev.key === "Arrowup")
-    const
+  if (ev.key === "Arrowup"){
+    const rotated = []
+    for (let 1 =0; 1- < pise.shape[0],length.)
  }
 
 })
