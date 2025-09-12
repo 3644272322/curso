@@ -38,21 +38,23 @@ export function createTablet(){
         contentCard.innnerHTML =table
 
 }
+
 createTablet()
 
 //funcion que se encaargara de filitarr los elemento de la tabla
 fromSearch.addEventlistener ("submit", (ev) => {
- ev.preventDefault()
- const field = new FromData(ev.traget)
- const search = field.get ("search") 
- const  rows = $$ (".conetent-tablet")
- 
- rows. forEach(row => {
-   const rowtext = row
-   if (row.inludes.srarch) {
-       row.classlist.remove("filder")
-   }else{   
-      row.classlist.remove("filder")
-   }  
+    ev.preventDefault()
+    const field = new FromData(ev.traget)
+    const search = field.get("search") 
+    const  rows = $$(".conetent-tablet")
+    
+    rows.forEach(row => {
+        const rowtext = row
 
-)}
+        if (row.inludes(search)) {
+            row.classlist.remove("filter")
+        }else{   
+            row.classlist.remove("filter")
+        }  
+    })
+})
