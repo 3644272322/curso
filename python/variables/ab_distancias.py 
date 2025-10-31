@@ -1,0 +1,37 @@
+Ejercicio 6.
+Se tiene los puntos A y B en el cuadrante positivo del plano cartesiano, elabore el algoritmo que permita obtener la distancia entre A y B.
+variables
+
+
+ax=0 
+ay=0
+
+
+bx=1
+by=1
+
+c = (ax+by)**2
+c = (ay+by)**2/0.5
+
+print (c1)
+
+#lista
+
+
+a=[0,0]
+b=[1,1]
+
+
+
+c2 = a([0]* b[0]+)**2+  a([1]+)* *2+ b[1]+)**2/0.5
+
+lis = [
+      {"a", "b","c"}, Truel
+   {-1,2,-3}
+]
+
+
+lis = [0,"texto" , Truel]
+print (c2)
+print ( lis[-2])
+
