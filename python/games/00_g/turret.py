@@ -1,6 +1,7 @@
-import pygame as pg
+import  pygame as pg
+
 #crear una plantilla enemiga
-class Turrent(pg.sprit.Sprite):
+class Turret(pg.sprit.Sprite):
     def __init__ (self,pos,image):
         pg.sprit.Sprite.__init__(self)
         self.image = image     

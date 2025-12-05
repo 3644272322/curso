@@ -1,3 +1,3 @@
-sd = 800   
-sh  = 800
+screen_width = 800   
+screen_heigth  = 800
 fps = 800
