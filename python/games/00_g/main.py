@@ -38,7 +38,6 @@ class RootGame:
         self.enemy_group.add(enemy_one)
         self.player = Character((100.150),self.character_image)
         
-        
     def run(self):
         #gamelop
         delta = 0
