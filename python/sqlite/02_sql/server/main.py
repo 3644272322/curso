@@ -1,6 +1,10 @@
 from fastapi import FastAPI
-
+from fastapi.middleware.cors import CORSMiddleware
 app = FastAPI() 
+
+ACCESS_ORIGIN = [
+    'http://localhost3000'
+]
 
 @app.get('/')
 def home():
