@@ -9,14 +9,24 @@
         <!-- titulo h1 al h6 -->
          <h1>Usuarios</h1>
         <p>lista de Usuario</p>
-         <div class="container_user"></div>
+         <div class="container_notas"></div>
         <!-- javascript -->
     <script>
         const d = document
         const $ = (selector) => d. querySelector (selector)
-        
-
         const API ='http://localhost:8000'
+        
+        function getNotas(api) {
+            try {
+                const response = fetch(
+                    `${api}/Notas`
+                )
+            } catch (error) {
+                
+            }
+        }
+        getNotas(API)
+
     </script>
 </body>
 </html>
